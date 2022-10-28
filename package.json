@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-eric-busing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericbusing/Portfolio-EB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericbusing/Portfolio-EB/issues"
+  },
+  "homepage": "https://github.com/ericbusing/Portfolio-EB#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "nodejs": "^0.0.0"
+  }
+}
