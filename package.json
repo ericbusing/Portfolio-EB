@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/ericbusing/Portfolio-EB#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "bcrypt": "^5.1.0",
+    "darkmode-js": "^1.5.7",
     "nodejs": "^0.0.0"
   }
 }
