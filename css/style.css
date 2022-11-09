@@ -50,6 +50,9 @@ body.light h1{
 body.dark h3 {
 	color: #FABF8F
 }
+body.dark .scrollto--arrow>img{
+	filter: invert(0);
+}
 body.dark .btn-toggle {
     background: #f1f1f1;
     color: #21232f;
@@ -453,7 +456,7 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	display: flex;
-	padding:100px 0 0 0;
+	padding:100px 0 100px 0;
 	height:auto;
 }
 .presentation{
@@ -748,6 +751,7 @@ img.grayscale:hover {
 	-webkit-filter:grayscale(0%);
 }
 .row-offset-0 {
+	display: flex;
 	margin-left:0;
 	margin-right:0;
 }
@@ -778,6 +782,8 @@ img.grayscale:hover {
 	margin:0;
 	padding:0;
 	height:435px;
+	width: 100%;
+    object-fit: cover;
 }
 .overlay {
 	display:block;
