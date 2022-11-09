@@ -268,7 +268,7 @@ sub {
 	bottom:-0.25em;
 }
 p {
-	font-size: 14px;
+	font-size: 17px;
 	font-weight:100;
 	line-height: 28px!important;
 }
@@ -570,7 +570,7 @@ table {
 	font-weight: bold;
 }
 h1.arrow {
-	font-size: 16px;
+	font-size: 18px;
 	text-transform:uppercase;
 	color:var(--h1-color);
 	letter-spacing: 4px;
@@ -1027,7 +1027,7 @@ ul.social-buttons li:last-child {
 
 .btn-send{
 	background:#FABF8F;
-	color: #2C49A6;
+	color: #21232f;
 	transition: all 0.4s;
 	border-radius: 0;
     width: 20%;

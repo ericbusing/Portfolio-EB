@@ -99,8 +99,7 @@
                 <div class="col-md-8 col-md-offset-2 wp1">
                     <h1 class="arrow">À propos de <span>moi</span></h1>
                     <!-- about / welcome text -->
-                    <p>Etant récemment diplomé d'une formation de <span>Développeur Web</span> j'ai réalisé 6 projets
-                        durant celle-ci.<br />Mon plus gros projet est de faire de cette nouvelle passion mon métier, à
+                    <p>Fraichement diplomé d'une formation de <span>Développeur Web</span> au cours de laquelle j'ai réalisé 6 projets, mon nouvel objectif est de faire de cette passion mon métier, à
                         la suite d'une alternance qui viendra renforcer mes compétences.</p>
                 </div>
             </div>
@@ -297,50 +296,24 @@
         =========================== -->
 
     <!-- ==========================
-        NEWSLETTER SECTION 
-        =========================== -->
-    <!-- <section>
-		<div class="container-fluid">
-				<div class="row color-bg">
-				    <div class="col-md-6 nopadding subscribe text-center"> -->
-    <!-- <h1><i class="fa fa-paper-plane"></i><span>Subscribe our Newsletter</span></h1>Heading -->
-    <!-- <form action="index.html#"> -->
-    <!-- <input type="text" name="" value="" placeholder="" required>E-Mail -->
-    <!-- <input type="submit" name="" value="Send">Submit Button -->
-    <!-- </form>   
-					</div>
-					<div class="col-md-6 nopadding features-intro-img"> -->
-    <!-- <div class="about-image" style="background-image:url(img/newsletter.png)"></div>Right Image -->
-    <!-- </div>
-				</div>
-			</div>
-        </section> -->
-    <!-- ==========================
-        NEWSLETTER SECTION END
-        =========================== -->
-
-    <!-- ==========================
         CONTACT SECTION
         =========================== -->
     <section class="text-center section-padding contact-wrap" id="contact">
         <!-- To Top Button -->
         <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
         <div class="container">
-            
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="arrow">Contactez-<span>moi</span></h1>
                 </div>
             </div>
             <div class="row contact-details">
-                <!-- Phone Number Box -->
                 <div class="col-md-4">
                     <div class="dark-box box-hover">
                         <h2><i class="fa fa-mobile"></i><span>Téléphone</span></h2>
                         <p class="number">06.15.59.28.56</p>
                     </div>
                 </div>
-                <!-- E-Mail Box -->
                 <div class="col-md-4">
                     <div class="dark-box box-hover">
                         <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
@@ -349,30 +322,24 @@
                 </div>
             </div>
             <div class="row">
-                <!-- Contact Form -->
                 <div class="col-md-6 contact">
                     <form role="form">
-                        <!-- Name -->
                         <div class="row">
                             <div class="col-md-6">
-                                <!-- E-Mail -->
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Votre nom">
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <!-- Phone Number -->
                                 <div class="form-group">
                                     <input type="email" class="form-control" placeholder="Votre email">
                                 </div>
                             </div>
                         </div>
-                        <!-- Message Area -->
                         <div class="form-group">
                             <textarea class="form-control" placeholder="Ecrivez votre message ici..."
                                 style="height:232px;"></textarea>
                         </div>
-                        <!-- Subtmit Button -->
                         <button type="submit" class="btn btn-send">
                             Envoyer un message
                         </button>
@@ -389,16 +356,12 @@
         FOOTER SECTION
         =========================== -->
     <footer>
-        <!-- Social Buttons - use font-awesome, past in what you want -->
         <div class="row">
             <div class="col-md-12">
                 <ul class="social-buttons">
-                    <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li>
-                    <!-- facebook -->
-                    <!-- <li><a href="index.html#" class="social-btn"><i class="fa fa-discord"></i></a></li>discord -->
-                    <li><a href="index.html#" class="social-btn"><i class="fa fa-github"></i></a></li><!-- github -->
-                    <li><a href="index.html#" class="social-btn"><i class="fa fa-linkedin"></i></a></li>
-                    <!-- linkedin -->
+                    <!-- <li><a href="index.html#" class="social-btn"><i class="fab fa-discord" target="_blank"></i></a></li> -->
+                    <li><a href="https://github.com/ericbusing" class="social-btn" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/eric-busing-11981bb4/" class="social-btn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -433,6 +396,15 @@
     <!-- Theme JavaScript Core -->
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("wGSjou6jVurLveOfU");
+   })();
+</script>
 
     </script>
 
