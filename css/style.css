@@ -32,6 +32,9 @@ body.dark {
     /* color: #fff !important; */
     background: #21232f!important;
 }
+body.light {
+	background: floralwhite;
+}
 body.light .icon-list>a{
 	color: #21232f;
 }
