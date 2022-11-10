@@ -5,11 +5,9 @@ window.onscroll = function () {
 
 function stickyHeader(elm) {
   let controller = window.pageYOffset;
-  if (controller > 70) {
+  if (controller > 260) {
     elm.style.display = "initial";
   } else {
     elm.style.display = "none";
   }
 }
-
-// window.addEventListener("scroll", stickyHeader);
