@@ -36,16 +36,27 @@
         =========================== -->
     <header id="home">
         <!-- creative menu -->
-        <nav class="menu">
+        <button class="global-toggler menu-toggler" aria-label="mobile menu toggler">
+            <img src="img/menu.svg" alt="">
+        </button>
+        <nav class="menu desktop-nav icon-list">
             <!-- Menu Links -->
-            <div class="icon-list">
+            <!-- <div class=""> -->
                 <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>À Propos</span></a>
                 <a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
                 <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
-                    <span class="theme__toggle-wrap btn-toggle">
-                    </span>
-            </div>
-        </nav>
+                <span class="theme__toggle-wrap btn-toggle"></span>
+                <!-- </div> -->
+            </nav>
+        <aside class="curtain-menu">
+            <button class="top-menu-btn menu-toggler">Close</button>
+            <nav class="aside-icon-list">
+                <a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>À Propos</span></a>
+                <a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+                <a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>   
+                <span class="theme__toggle-wrap aside-btn-toggle"></span>
+            </nav>
+          </aside>
         <!-- Header Image -->
         <section class="hero" id="hero">
             <div class="container">
@@ -291,8 +302,8 @@
         CONTACT SECTION
         =========================== -->
     <section class="text-center section-padding contact-wrap" id="contact">
-        <!-- To Top Button -->
-        <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+        <!-- To Top Button
+        <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a> -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -392,6 +403,8 @@
     </script>
     <!-- Font-Awesome -->
     <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer=""></script>
+    <!-- Navbar -->
+    <script src="js/nav.js"></script>
 
     <!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
