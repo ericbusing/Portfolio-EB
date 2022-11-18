@@ -1,5 +1,3 @@
-require("dotenv").config({ path: "../.env" });
-require("../");
 function sendMail() {
   var params = {
     name: document.getElementById("name").value,

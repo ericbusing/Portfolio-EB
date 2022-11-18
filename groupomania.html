@@ -266,31 +266,32 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 contact">
-                    <form role="form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Votre nom">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Votre email">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" placeholder="Ecrivez votre message ici..."
-                                style="height:232px;"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-send">
-                            Envoyer un message
-                        </button>
-                    </form>
+            <div class="container border mt-3 bg-light">
+                <div class="row">
+                  <div class="col-md-6 border-left py-3">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Votre nom"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Votre email"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <textarea class="form-control" id="message" rows="10" placeholder="Ecrivez votre message ici..."></textarea>
+                    </div>
+                    <button class="btn btn-primary" onclick="sendMail()">Envoyer</button>
+                  </div>
                 </div>
-            </div>
+              </div>
             <br>
     </section>
     <!-- ==========================
@@ -339,9 +340,16 @@
     <script src="js/scrollBtn.js"></script>
     <!-- Theme JavaScript Core -->
     <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    <!-- emailjs -->
+    <script src="./js/contact.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("wGSjou6jVurLveOfU");
+      })();
     </script>
     <!-- Font-Awesome -->
     <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer=""></script>
