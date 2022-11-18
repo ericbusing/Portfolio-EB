@@ -1,12 +1,12 @@
 function sendMail() {
-  var params = {
+  let params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     message: document.getElementById("message").value,
   };
 
-  const serviceID = "MY_SERVICE_ID";
-  const templateID = "MY_TEMPLETE_ID";
+  const serviceID = "service_e4g3yo4";
+  const templateID = "template_rniftig";
 
   emailjs
     .send(serviceID, templateID, params)
